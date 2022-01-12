@@ -1,10 +1,9 @@
-package mvc_hb_aop.dao;
+package mvc_hb_aop.service;
 
 import mvc_hb_aop.entity.Employee;
-
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     public List<Employee> getAllEmployees();
 }
