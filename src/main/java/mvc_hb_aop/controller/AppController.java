@@ -19,10 +19,8 @@ public class AppController {
 
     @RequestMapping("/")
     public String showAllEmployees(Model model) {
-
         List<Employee> allEmployees = employeeService.getAllEmployees();
         model.addAttribute("allEmps", allEmployees);
-
         return "all_employees";
     }
 
